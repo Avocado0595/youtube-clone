@@ -1,0 +1,25 @@
+.shareButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.8rem 1.4rem;
+    background-color: var(--color-button);
+    border-radius: 3rem;
+    margin: 0 0.8rem;
+    cursor: pointer;
+}
+
+.shareButton__icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0 1rem 0 0;
+}
+
+.shareButton__icon > img {
+    width: 100%;
+    height: 100%;
+}
+
+.shareButton:hover {
+    background-color: var(--color--button-active);
+}

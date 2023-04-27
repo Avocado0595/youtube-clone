@@ -1,0 +1,11 @@
+
+.playVideo {
+    height: 66vh;
+    border: .1rem solid black;
+}
+
+.playVideo > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

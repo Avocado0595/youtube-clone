@@ -1,0 +1,14 @@
+.unavailableVideo {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 10rem auto 0;
+}
+
+.unavailableVideo__bottom {
+  margin: 1.5rem 0 0;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border: 0.1rem solid black;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+}

@@ -1,0 +1,47 @@
+.subscribed {
+    padding: 1rem 1.4rem;
+    border-radius: 30rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-button);
+    position: relative;
+}
+
+.subscribed:hover {
+    background-color: var(--color--button-active);
+}
+
+.subscribed__text {
+    padding: 0 .8rem;
+    font-weight: bold;
+}
+
+.subscribed__ringIcon {
+    width: 1.6rem;
+}
+
+.subscribed__optionIcon {
+    width: 1.2rem;
+    transform: rotate(90deg);
+}
+
+.subscribed__options {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, .1);
+}
+
+.subscribed__options > div {
+    display: flex;
+    align-items: center;
+}
+
+.subscribed__options__receiveAllNof__ringIcon {
+    width: 1.8rem;
+}

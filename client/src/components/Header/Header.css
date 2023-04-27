@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+/*---------------- header left -------------------*/
+.header__left {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.header__left__menu {
+  padding: 1rem;
+  margin-right: 1rem;
+  height: 3.5rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.header__left__menu:hover {
+  background-color: #e5e5e5;
+}
+
+.header__left__logo {
+  width: 11rem;
+}
+
+/* -----------------header centre ----------------- */
+
+.header__centre {
+  width: 60rem;
+}
+.header__centre__search {
+  display: flex;
+  align-items: center;
+}
+
+.header__centre__search > input {
+  width: 100%;
+  border-top-left-radius: 30rem;
+  border-bottom-left-radius: 30rem;
+  outline: none;
+  border: 0.1rem solid #dddddd;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.header__centre__search > input:focus {
+  border: 0.1rem solid rgb(72, 72, 255);
+  box-shadow: 0.2rem 0.2rem 1rem #d9d9d9;
+}
+
+.header__center__search-button {
+  padding: 1rem 2rem;
+  border-top-right-radius: 30rem;
+  border-bottom-right-radius: 30rem;
+  border: none;
+  outline: none;
+  height: 3.9rem;
+}
+
+.header__center__search-button > img {
+  width: 1.6rem;
+}
+
+/*------------------- header right------------------ */
+
+.header__right {
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.header__right__more {
+  margin-right: 1rem;
+}
+
+.header__right__more-icon {
+  width: 2.4rem;
+}
+
+.header__wall {
+  height: 6rem;
+  background-color: white;
+}

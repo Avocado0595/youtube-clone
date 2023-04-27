@@ -1,0 +1,17 @@
+/* description */
+.description {
+    margin: 1rem 0 0;
+    padding: 1rem;
+    background-color: var(--color-button);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.description:hover {
+    background-color: var(--color--button-active);
+}
+
+.description__top {
+    display: flex;
+    align-items: center;
+}

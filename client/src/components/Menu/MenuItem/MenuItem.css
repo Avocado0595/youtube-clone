@@ -1,0 +1,16 @@
+.menuItem {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    background-color: #e5e5e5;
+    border-radius: 0.8rem;
+}
+
+.menuItem__icon {
+    width: 2rem;
+    margin-right: 2rem;
+}

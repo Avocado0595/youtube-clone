@@ -1,0 +1,23 @@
+.shortVideo {
+  position: relative;
+  width: 16.6%;
+  height: 30rem;
+  font-size: 1.4rem;
+  padding: 0.2rem;
+}
+
+.shortVideo__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.shortVideo__views {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 1rem;
+}

@@ -1,0 +1,50 @@
+
+.watchVideo__recommends {
+    width: 35%;
+    margin: 0 0 0 2.2rem;
+}
+
+.watchVideo__categories {
+    display: flex;
+    align-items: center;
+    margin: 0 0 1.5rem;
+}
+
+.videoRecommended {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 0.5rem;
+}
+
+.videoRecommended__thumbnail {
+    margin: 0 1rem 0 0;
+}
+
+.videoRecommended__thumbnail > img {
+    width: 16rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.videoRecommended__info__title {
+    font-weight: bold;
+    margin: 0 0 0.8rem;
+}
+
+.videoRecommended__info__channel,
+.videoRecommended__info__bottom {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: var(--color-sub-title);
+}
+
+.videoRecommended__info__channel__text {
+    margin: 0 0.5rem 0 0;
+}
+
+.videoRecommended__info__bottom__views {
+    margin: 0 0.8rem 0 0;
+}

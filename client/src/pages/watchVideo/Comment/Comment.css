@@ -1,0 +1,83 @@
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 2rem;
+}
+
+.comment__avatar {
+    margin: 0 1.6rem 0 0;
+}
+
+.comment__avatar > img {
+    width: 4.2rem;
+    height: 4.2rem;
+    object-fit: cover;
+    border-radius: 3rem;
+}
+
+.comment__content__top,
+.comment__interactComment,
+.comment__interactComment__like,
+.comment__interactComment__dislike {
+    display: flex;
+    align-items: center;
+}
+
+.comment__content__top {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.comment__content__text {
+    margin: 0.6rem 0 1.4rem;
+}
+
+.comment__interactComment__like,
+.comment__interactComment__dislike {
+    margin: 0 1.4rem 0 0;
+}
+
+.comment__interactComment__like > img,
+.comment__interactComment__dislike > img {
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
+
+.comment__interactComment__like__likers {
+    padding: 0 0 0 0.5rem;
+    font-size: 1.2rem;
+    color: var(--color-sub-title);
+}
+
+.comment__interactComment__reply {
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 0 0 1rem;
+}
+
+.comment__content__replies {
+    margin: 1rem 0 0;
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.comment__content__replies:hover {
+    background-color: var(--color-highlight-reply-button);
+    border-radius: 3rem;
+}
+
+.comment__content__replies__icon {
+    width: 1rem;
+    height: 1rem;
+    transform: rotate(90deg);
+}
+
+.comment__content__replies__text {
+    color: var(--color-reply-button);
+    margin: 0 0 0 1rem;
+    font-weight: bold;
+}

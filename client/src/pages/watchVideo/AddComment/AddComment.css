@@ -1,0 +1,49 @@
+.addComment {
+    display: flex;
+    align-items: flex-start;
+}
+
+.addComment__avatar {
+    margin: 0 1.2rem 0 0;
+}
+
+.addComment__avatar > img {
+    border-radius: 3rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    object-fit: cover;
+}
+
+.addComment__form {
+    width: 100%;
+}
+
+.addComment__form__content > input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    border-bottom: 0.1rem solid var(--color--button-active);
+}
+
+.addComment__form__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1rem 0 0 auto;
+}
+
+.addComment__form__buttons__cancelButton,
+.addComment__form__buttons__commentButton {
+    padding: 1rem;
+    border-radius: 3rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.addComment__form__buttons__commentButton {
+    background-color: var(--color-button);
+    color: var(--color--sub-text);
+    font-weight: bold;
+}

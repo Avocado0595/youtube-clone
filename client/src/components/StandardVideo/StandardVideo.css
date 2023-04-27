@@ -1,0 +1,60 @@
+.video {
+    width: 25%;
+    min-height: 28rem;
+    max-height: 28rem;
+    padding: 1.5rem 1rem;
+    text-transform: capitalize;
+    line-height: 1.4;
+    cursor: pointer;
+    position: relative;
+}
+
+.video__photo {
+    width: 100%;
+    height: 15rem;
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+
+.video__info {
+    display: flex;
+    margin: 1.2rem 0;
+}
+
+.video__info__subInfo {
+    font-size: 1.3rem;
+    padding: 0 1.5rem;
+}
+
+.video__info__avatar {
+    height: 3.6rem;
+    width: 3.6rem;
+    border-radius: 30rem;
+}
+
+.video__info__subInfo__title {
+    width: 100%;
+    line-height: 1.3;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.video__info__subInfo__channel {
+    display: flex;
+    align-items: center;
+    color: rgb(99, 99, 99);
+    text-transform: capitalize;
+}
+
+.video__info__subInfo__view-time {
+    color: rgb(99, 99, 99);
+    display: flex;
+    align-items: center;
+    text-transform: none;
+}

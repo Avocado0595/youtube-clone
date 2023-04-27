@@ -1,0 +1,35 @@
+.sideBar {
+    position: fixed;
+    left: 0;
+    height: 90vh;
+    overflow-y: scroll;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    width: 18%;
+    background-color: white;
+}
+
+.sideBar__first,
+.sideBar__second,
+.sideBar__fourth,
+.sideBar__youtubeServices,
+.sideBar__support,
+.sideBar__signIn {
+    padding: 1.5rem;
+    border-bottom: 0.1rem solid rgb(224, 224, 224);
+    margin-right: 1.5rem;
+}
+
+.sideBar__signIn {
+    padding: 1.5rem 3rem;
+}
+
+.sideBar__signIn > div:nth-child(1) {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.sideBar--title {
+    font-size: 1.6rem;
+    padding: 0 0 1rem 0.5rem;
+}

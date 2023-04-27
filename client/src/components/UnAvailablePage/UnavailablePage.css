@@ -1,0 +1,24 @@
+.unavailablePage {
+  font-size: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15rem 0 0;
+}
+
+.unavailablePage__top {
+  display: flex;
+  align-items: center;
+  margin: 0 0 2rem;
+}
+.unavailablePage__top > img {
+  width: 8rem;
+  margin: 0 3rem 0 0;
+}
+
+.unavailablePage__bottom {
+  font-size: 1.2rem;
+  border: 0.1rem solid black;
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+}
